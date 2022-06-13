@@ -1,0 +1,31 @@
+.box {
+    width: 40px;
+    height: 40px;
+}
+
+.notification path {
+    transition: fill .3s ease;
+}
+
+.notification:hover {
+    fill: #000;
+    
+    
+}
+
+.notification_2 path {
+    transition: fill .3s ease;
+}
+
+.notification_2:hover path {
+    fill: #000;
+}
+
+.notification-3 {
+    width: 30px;
+    height: 30px;
+    fill: red;
+}
+
+
+

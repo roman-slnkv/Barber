@@ -1,0 +1,14 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Catamaran", sans-serif;
+  --content-width: 1530px;
+  --container-fluid: 1750px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --container-fluid-width: calc(var(--content-fluid) + (var(--container-offset) * 2));
+
+  // colors
+  --light-color: #fff;
+}
