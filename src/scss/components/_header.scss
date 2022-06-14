@@ -1,31 +1,56 @@
-.box {
-    width: 40px;
-    height: 40px;
-}
-
-.notification path {
-    transition: fill .3s ease;
-}
-
-.notification:hover {
-    fill: #000;
+.header {
+    .header__container {
+       display: flex;
+       justify-content: space-between;
+    } 
     
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        .nav__list {
+            display: flex;
+        
+            .nav__item {
+                &:not(:last-child) {
+                    margin-right: 48px;
+                }
+        
+                .nav__link {
+                    font-size: 25px;
+                    font-weight: 500;
+                    color: #163561;
+                    line-height: 133.6%;
+                }
+            }
+        }
+    }
     
+    .header__right {
+        display: flex;
+        align-items: center;
+        
+
+        .profile-link{
+            
+            &:not(:last-child) {
+                margin-right: 48px;
+            }
+        }
+        
+        .header {
+        
+                &__btn {
+                    font-size: 20px;
+                    font-weight: 700;
+                    padding: 23px 32px;
+                    line-height: 150.6%;
+                    border-radius: 20px;
+                    background: #99BAED;
+                    color: var(--light-color);
+                    box-shadow: 0 15px 50px -20px #3c93d5;
+                }
+        }
+        
+    }
 }
-
-.notification_2 path {
-    transition: fill .3s ease;
-}
-
-.notification_2:hover path {
-    fill: #000;
-}
-
-.notification-3 {
-    width: 30px;
-    height: 30px;
-    fill: red;
-}
-
-
-
