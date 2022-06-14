@@ -1,17 +1,23 @@
 .header {
+    .logo {
+        margin-right: 110px;
+        transform: translateY(-15px);
+    }
     .header__container {
        display: flex;
-       justify-content: space-between;
+       align-items: center;
+       
     } 
     
     .nav {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        .nav__list {
+       margin-right: auto;
+        &__list {
+            margin: 0;
+            padding: 0;
             display: flex;
         
             .nav__item {
+                
                 &:not(:last-child) {
                     margin-right: 48px;
                 }
