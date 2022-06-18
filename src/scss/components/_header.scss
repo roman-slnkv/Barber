@@ -47,8 +47,12 @@
             font-family: 'Catamaran';
             font-size: 25px;
             font-weight: 500;
-            color: #163561;
+            color: var(--title-color);
             line-height: 133.6%;
+        }
+
+        &__link--active {
+            color: var(--light-color);
         }
         
         
@@ -76,7 +80,7 @@
         line-height: 150.6%;
         border-radius: 20px;
         min-width: 188px;
-        background: #99BAED;
+        background: var(--accent-color);
         color: var(--light-color);
         box-shadow: 0 15px 50px -20px #3c93d5;
     }
