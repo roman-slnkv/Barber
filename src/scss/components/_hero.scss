@@ -3,6 +3,7 @@
 
     &__container {
         display: flex;
+        overflow: hidden;
     }
 
     &__content {
@@ -24,15 +25,7 @@
     }
 
     &__description {
-        margin: 0;
         margin-bottom: 97px;
-        font-family: 'Catamaran';
-        font-weight: 400;
-        font-size: 25px;
-        line-height: 150.6%;
-        color: var(--descr-color);
-        letter-spacing: 0.03em;
-        opacity: 0.65;
     }
 
     &__btn {

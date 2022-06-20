@@ -1,0 +1,22 @@
+.history {
+
+    &__container {
+        display: flex;
+    }
+
+    &__image {
+        margin-right: 149px;
+    }
+
+    &__title {
+        font-family: 'Catamaran';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 150.6%;
+        color: var(--title-color);
+        & span {
+            color: #FBB400;
+        }
+    }
+}

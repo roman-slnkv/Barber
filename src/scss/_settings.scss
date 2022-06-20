@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  overflow: hidden;
 }
 
 *,
@@ -123,4 +122,15 @@ a {
 
 .page--ios .dis-scroll {
   position: relative;
+}
+
+.description {
+  margin: 0;
+  font-family: 'Catamaran';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150.6%;
+  color: var(--descr-color);
+  letter-spacing: 0.03em;
+  opacity: 0.65;
 }
